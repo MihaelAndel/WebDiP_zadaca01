@@ -8,44 +8,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="HTML, CSS, FOI, WebDiP, Početna">
         <link rel="stylesheet" type="text/css" href="./css/mandel.css">
-        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 480px)" href="./css/mandel_480.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="./css/mandel_480.css">
     </head>
 
     <body>
         <div id="zaglavlje" class="pocetna">
-                <header id="zaglavlje"><h1>Početna stranica</h1></header>
+            <header id="zaglavlje"><h1>Početna stranica</h1></header>
         </div>
-        
-        <div id="izbornik">
+
+        <nav id="izbornik">
             <ul>
-                <li><a href="" class="izbornik">Druga stranica</a></li>
-                <li><a href="" class="izbornik">Treća stranica</a></li>
-                <li><a href="" class="izbornik">Četvrta stranica</a></li>
-                <li><a href="" class="izbornik">Peta stranica</a></li>
-                <li><a href="" class="izbornik">Šesta stranica</a></li>
+                <li><a href="index.html" class="izbornik">Početna stranica</a></li>
+                <li><a href="ostalo/multimedija.html" class="izbornik">Multimedija</a></li>
+                <li><a href="ostalo/popis.html" class="izbornik">Popis</a></li>
+                <li><a href="obrasci/obrazac.html" class="izbornik">Obrazac</a></li>
+                <li><a href="obrasci/prijava.html" class="izbornik">Prijava</a></li>
+                <li><a href="obrasci/registracija.html" class="izbornik">Registracija</a></li>
             </ul>
             <div class="clear"></div>
-        </div>
+        </nav>
 
         <div class="glavni-sadrzaj">
 
             <h2>O autoru</h2>
-            
+
             <ul id="osobni-podaci">
                 <li>Mihael Anđel</li>
                 <li>mandel@foi.hr</li>
                 <li>Broj indeksa: 44864</li>
             </ul>
 
-            <img id="osobna-slika" src="./multimedija/osobna_fotografija.jpg" alt="" width="100px">
-            
-            <p id="o-meni">
+            <img usemap="#mapa1" id="osobna-slika" src="./multimedija/osobna_fotografija.jpg" alt="" width="100">
+            <map name="mapa1">
+                <area href="pravokutnik.html" alt="pravokutnik" shape="rect" coords="0,66,100,133" target="a" />
+                <area href="krug.html" alt="krug" shape="circle" coords="100,100,20" target="b" />
+                <area href="pravokutnik.html" alt="pravokutnik" shape="rect" coords="0,0,50,25"/>
+            </map>
+            <div id="o-meni">
                 S programiranjem sam se prvo upoznao još u osnovnoj školi, ali samo na elementarnoj razini.
                 U srednjoj školi učili smo malo teorije o programiranju i nešto malo smo programirali u programskom jeziku C.
                 Što se tiče fakulteta, puno sam naučio programirati u programskom jeziku C++.
                 Osim toga, u zadnje vrijeme učim razne tehnologije vezane uz web razvoj.
-                Od predmeta očekujem da me upozna s nepoznatim tehnologijama, ali i da nadogradi već postojeće znanje.
-            </p>
+                Od predmeta očekujem da me upozna s nepoznatim tehnologijama, ali i da nadogradi već postojeće znanje.[
+            </div>
 
         </div>
         <hr>
@@ -69,30 +74,28 @@
                     Na navedenom događaju će se također prikazati ostale nove stvari u razvoju, poput nove verzije .NET Core okvira.  
                 </p>
             </div>
-            
+
             <div class="clanak">
-                <h3>Bojan Bogdanović sam protiv 76'ers-a</h3>
+                <h3>Treći članak</h3>
                 <p>
-                    Hrvatski košarkaš Bojan Bogdanović bio je najbolji igrač u gubitku protiv Philadelphia 76'ers-a.
-                    Utakmica se igrala 10. ožujka 2019. u Bankers Life Fieldhouse areni u Indianapolisu.
-                    Unatoč porazu, hrvatski as se iskazao s 18 poena, četiri trice, pet skokova i dvije asistencije.
+                    test
                 </p>
             </div>
 
             <div class="clanak">
-                    <h3>Četvrti članak</h3>
-                    <p>
-                        Ovo je tekst za probu.
-                    </p>
+                <h3>Četvrti članak</h3>
+                <p>
+                    Ovo je tekst za probu.
+                </p>
             </div>
-    
+
             <div class="clanak">
                 <h3>Peti članak</h3>
                 <p>
                     Ovo je drugi tekst.
                 </p>
             </div>
-            
+
             <div class="clanak">
                 <h3>Šesti članak</h3>
                 <p>
@@ -101,21 +104,20 @@
             </div>
 
         </div>
-        
 
-        <div id="podnozje">
-            <footer>
-                <p>
-                    &copy; Mihael Anđel 2019
-                </p>
-                <p>
-                    Kontakt: <a href="mailto:mandel@foi.hr" target="_blank">mandel@foi.hr</a>
-                </p>
-                <p>
-                    Posljednja izmjena: ...
-                </p>
-            </footer>
-        </div>
+
+        <footer id="podnozje">
+            <p>
+                &copy; Mihael Anđel 2019
+            </p>
+            <p>
+                Kontakt: <a href="mailto:mandel@foi.hr" target="_blank">mandel@foi.hr</a>
+            </p>
+            <p>
+                Posljednja izmjena: ...
+            </p>
+        </footer>
+
     </body>
 
 </html>
