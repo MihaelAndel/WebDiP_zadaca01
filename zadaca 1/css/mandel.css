@@ -12,11 +12,8 @@
   }
 }
 
-* {
-  font-family: "Calibri light";
-}
-
 body {
+  font-family: "Calibri light";
   background-color: white;
   margin: 0;
 }
@@ -31,7 +28,7 @@ body {
   margin: auto;
 }
 
-.pocetna#zaglavlje {
+#zaglavlje.pocetna {
   animation: pocetnaAnimacija 1.5s;
   font-size: 30px;
   background-color: rgb(100, 0, 0);
@@ -69,17 +66,12 @@ body {
   list-style-type: disc;
   display: inline-block;
   vertical-align: top;
+  color: black;
+  text-align: left;
 }
 
 #osobni-podaci > li {
-  color: black;
-  text-align: left;
   margin: auto;
-}
-
-.clear {
-  clear: both;
-  font-size: 0;
 }
 
 .glavni-sadrzaj {
@@ -168,7 +160,7 @@ a.izbornik {
 }
 
 a:active {
-  color: green;
+  color: rgb(143, 143, 143);
 }
 
 hr {
