@@ -1,43 +1,41 @@
 @import url("mandel.css");
 
-@keyframes pocetnaAnimacija480{
-    from{
-        width: 0%;
-        font-size: 0px;
-        background-color: rgb(255, 70, 70);
-    }
+@keyframes pocetnaAnimacija480 {
+  from {
+    width: 0%;
+    font-size: 0px;
+    background-color: rgb(255, 70, 70);
+  }
 
-    to{
-        width: 100%;
-        font-size: 20px;
-        background-color: rgb(100, 0, 0);
-    }
-}
-
-#zaglavlje{
-    animation: pocetnaAnimacija480 1.5s;
-    white-space: nowrap;
+  to {
+    width: 100%;
     font-size: 20px;
-    height: 60px;
+    background-color: rgb(100, 0, 0);
+  }
 }
 
-#izbornik > ul{
-    font-size: 15px;
+#zaglavlje {
+  animation: pocetnaAnimacija480 1.5s;
+  white-space: nowrap;
+  font-size: 20px;
+  height: 60px;
 }
 
-#o-meni{
-    width: 90%;
-    margin-bottom: 10px;
+#izbornik > ul {
+  font-size: 15px;
 }
 
-article{
-    width: 80%;
-    font-size: 15px;
-    height: 100%;
+#o-meni {
+  width: 90%;
+  margin-bottom: 10px;
 }
 
-hr{
-    border: 0;
+article {
+  width: 80%;
+  font-size: 15px;
+  height: 100%;
 }
 
-
+hr {
+  border: 0;
+}

@@ -153,11 +153,12 @@ a {
   font-family: "Courier New", Courier, monospace;
 }
 
-#podnozje a{
+#podnozje a {
   color: #ffffff;
 }
 
-a:active, a:visited{
+a:active,
+a:visited {
   color: rgb(165, 98, 22);
 }
 
