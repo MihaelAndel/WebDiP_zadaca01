@@ -1,14 +1,56 @@
 @keyframes pocetnaAnimacija {
   from {
     width: 0%;
-    font-size: 0px;
-    background-color: rgb(255, 70, 70);
   }
 
   to {
-    font-size: 30px;
     width: 100%;
-    background-color: rgb(100, 0, 0);
+  }
+}
+
+@keyframes multimedijaAnimacija {
+  from {
+    top: -100px;
+  }
+
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes popisAnimacija {
+  from {
+    border-radius: 100px;
+    width: 0%;
+  }
+
+  to {
+    border-radius: 0px;
+    width: 100%;
+  }
+}
+
+@keyframes obrazacAnimacija {
+  from {
+  }
+
+  to {
+  }
+}
+
+@keyframes prijavaAnimacija {
+  from {
+  }
+
+  to {
+  }
+}
+
+@keyframes registracijaAnimacija {
+  from {
+  }
+
+  to {
   }
 }
 
@@ -28,6 +70,18 @@ body {
 
 #zaglavlje.pocetna {
   animation: pocetnaAnimacija 1.5s;
+  font-size: 30px;
+  background-color: rgb(100, 0, 0);
+}
+
+#zaglavlje.multimedija {
+  animation: multimedijaAnimacija 1.5s;
+  font-size: 30px;
+  background-color: rgb(100, 0, 0);
+}
+
+#zaglavlje.popis {
+  animation: popisAnimacija 1s;
   font-size: 30px;
   background-color: rgb(100, 0, 0);
 }

@@ -1,24 +1,37 @@
 @import url("mandel.css");
 
-@keyframes pocetnaAnimacija480 {
-  from {
-    width: 0%;
-    font-size: 0px;
-    background-color: rgb(255, 70, 70);
-  }
-
-  to {
-    width: 100%;
-    font-size: 20px;
-    background-color: rgb(100, 0, 0);
-  }
+#zaglavlje {
+  white-space: nowrap;
 }
 
-#zaglavlje {
-  animation: pocetnaAnimacija480 1.5s;
-  white-space: nowrap;
+#zaglavlje.pocetna {
   font-size: 20px;
   height: 60px;
+}
+
+#zaglavlje.multimedija {
+  font-size: 20px;
+  height: 60px;
+}
+
+#zaglavlje.prijava {
+    font-size: 20px;
+    height: 60px;
+}
+
+#zaglavlje.registracija {
+    font-size: 20px;
+    height: 60px;
+}
+
+#zaglavlje.obrazac {
+    font-size: 20px;
+    height: 60px;
+}
+
+#zaglavlje.popis {
+    font-size: 20px;
+    height: 60px;
 }
 
 #izbornik > ul {
