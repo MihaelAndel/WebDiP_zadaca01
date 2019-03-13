@@ -41,12 +41,11 @@ body {
   border: 3px solid rgb(100, 0, 0);
   background-color: rgba(255, 70, 70, 0.1);
   border-radius: 0 0 20px 20px;
+  text-align: center;
 }
 
 #izbornik > ul {
-  position: relative;
   list-style-type: none;
-  text-align: center;
 }
 
 #izbornik > ul > li {
