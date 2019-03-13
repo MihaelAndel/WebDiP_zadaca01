@@ -107,8 +107,9 @@ article > p {
 #podnozje {
   width: 100%;
   position: absolute;
+  display: inline-block;
   bottom: 0;
-  height: 100px;
+  height: 130px;
   background-color: rgb(100, 0, 0);
   font-size: 18px;
   text-align: center;
@@ -151,19 +152,24 @@ p {
 }
 
 a {
-  color: #ffffff;
+  color: rgb(163, 34, 34);
   font-family: "Courier New", Courier, monospace;
 }
 
-a.izbornik {
-  color: black;
+#podnozje a{
+  color: #ffffff;
 }
 
-a:active {
-  color: rgb(143, 143, 143);
+a:active, a:visited {
+  color: rgb(165, 98, 22);
 }
 
 hr {
   border-color: rgb(255, 70, 70);
   width: 75%;
+}
+
+#css3 {
+  position: relative;
+  top: 2px;
 }
