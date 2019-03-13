@@ -22,19 +22,7 @@
 }
 
 #izbornik > ul{
-    display: block;
-    width: 70%;
-    position: relative;
     font-size: 15px;
-    margin: auto;
-    text-align: center;
-    list-style-type: disc;
-}
-
-#izbornik > ul > li{
-    display: block;
-    margin: auto;
-    width: 100%;
 }
 
 #o-meni{
