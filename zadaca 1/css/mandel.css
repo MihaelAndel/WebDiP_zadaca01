@@ -98,6 +98,7 @@ body {
 
 #izbornik > ul {
   list-style-type: none;
+  margin: auto;
 }
 
 #izbornik > ul > li {
@@ -215,7 +216,7 @@ a {
 
 a:active,
 a:visited {
-  color: rgb(165, 98, 22);
+  color: rgb(184, 126, 60);
 }
 
 a:hover {
