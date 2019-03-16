@@ -52,3 +52,12 @@ article {
 hr {
   border: 0;
 }
+
+#podnozje {
+  font-size: 12px;
+}
+
+#podnozje img {
+  width: 25px;
+  height: 25px;
+}

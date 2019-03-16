@@ -39,30 +39,57 @@
   <section id="sadrzaj">
     <form action="http://barka.foi.hr/WebDiP/2018/materijali/zadace/ispis_forme.php" method="POST">
       <div id="forma">
-        <input type="text" name="ime" placeholder="Ime" maxlength="25" size="15">
-        <input type="text" name="prezime" placeholder="Prezime" maxlength="40" size="20">
-        <input type="text" name="korisničko ime" placeholder="Korisničko ime" maxlength="20">
-        <span style="font-size: 15px">Datum rođenja:</span><input type="date" name="datum_rođenja" placeholder="Datum rođenja">
-        <input type="email" name="email" placeholder="E-mail adresa">
-        <input type="password" name="lozinka" placeholder="Lozinka">
-        <input type="password" name="potvrda lozinke" placeholder="Potvrda lozinke">
-        <button type="submit" name="gumb" >Pošalji</button>
+        <label for="ime">Ime</label>
+        <input id="ime" type="text" name="ime" placeholder="Ime" maxlength="25" size="15">
+
+        <label for="prezime">Prezime</label>
+        <input id="prezime" type="text" name="prezime" placeholder="Prezime" maxlength="40" size="20">
+
+        <label for="korisničko ime">Korisničko ime</label>
+        <input id="korisničko ime" type="text" name="korisničko ime" placeholder="Korisničko ime" maxlength="20">
+
+        <label for="datum_rođenja">Datum rođenja</label>
+        <input id="datum_rođenja" type="date" name="datum_rođenja" placeholder="Datum rođenja">
+
+        <label for="email">E-mail adresa</label>
+        <input id="email" type="email" name="email" placeholder="E-mail adresa">
+
+        <label for="lozinka">Lozinka</label>
+        <input id="lozinka" type="password" name="lozinka" placeholder="Lozinka">
+
+        <label for="potvrda lozinka">Potvrda lozinke</label>
+        <input id="potvrda lozinke" type="password" name="potvrda lozinke" placeholder="Potvrda lozinke">
+
+        <label for="gumb">Gumb za slanje</label>
+        <button id="gumb" type="submit" name="gumb">Pošalji</button>
       </div>
     </form>
   </section>
 
   <footer id="podnozje">
-    <p>
-      &copy; Mihael Anđel 2019
-    </p>
-    <p>
-      Kontakt:
-      <a href="mailto:mandel@foi.hr" target="_blank">mandel@foi.hr</a>
-    </p>
-    <p>
-      Posljednja izmjena: ...
-    </p>
-  </footer>
+      <p>
+        &copy; 2019, Mihael Anđel | 
+      </p>
+      <address>
+        Kontakt: <a href="mailto:mandel@foi.hr" target="_blank">Mihael Anđel</a>
+      </address>
+      <p> | 
+        Posljednja izmjena: ...
+      </p>
+
+      <img
+        id="html5"
+        src="../multimedija/HTML5.png"
+        alt="HTML 5 validacija"
+        width="40"
+      />
+      <img
+        id="css3"
+        src="../multimedija/CSS3.png"
+        alt="CSS 3 validacija"
+        height="40"
+      />
+    </footer>
 </body>
 
 </html>

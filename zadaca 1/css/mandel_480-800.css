@@ -9,6 +9,11 @@ article {
     margin-bottom: 10px;
 }
 
-
-
-
+#podnozje {
+    font-size: 14px;
+  }
+  
+  #podnozje img {
+    width: 30px;
+    height: 30px;
+  }
