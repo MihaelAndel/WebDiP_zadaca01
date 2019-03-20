@@ -1,14 +1,18 @@
-@import url("mandel.css");
-
-article {
-    width: 45%;
+@media screen and (min-width:800px) and (max-width: 1023px) {
+    article {
+        width: 45%;
+    }
+    label {
+        font-size: 17px;
+    }
+    div.grid-container {
+        display: grid;
+        margin: 30px 0 0 10px;
+        justify-content: center;
+        grid-template-columns: 45% 45%;
+        grid-row-gap: 30px;
+    }
+    #naslov-forme {
+        font-size: 30px;
+    }
 }
-
-label {
-    font-size: 17px;
-}
-
-
-
-
-
