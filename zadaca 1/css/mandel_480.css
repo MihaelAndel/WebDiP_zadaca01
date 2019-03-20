@@ -53,6 +53,14 @@ hr {
   border: 0;
 }
 
+label {
+  font-size: 13px;
+}
+
+#forma {
+  width: 250px;
+}
+
 #podnozje {
   font-size: 12px;
 }

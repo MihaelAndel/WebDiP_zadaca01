@@ -1,19 +1,27 @@
 @import url("mandel.css");
 
 article {
-    width: 45%;
+  width: 45%;
 }
 
-#o-meni{
-    width: 90%;
-    margin-bottom: 10px;
+#o-meni {
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 #podnozje {
-    font-size: 14px;
-  }
-  
-  #podnozje img {
-    width: 30px;
-    height: 30px;
-  }
+  font-size: 14px;
+}
+
+#podnozje img {
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  font-size: 15px;
+}
+
+#forma {
+  width: 300px;
+}
