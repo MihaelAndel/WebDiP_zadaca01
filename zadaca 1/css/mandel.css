@@ -216,7 +216,11 @@ table {
   margin: auto;
 }
 
-#upamti-me{
+td + td {
+  float: left;
+}
+
+input[type="radio"], input[type="radio"] + span {
   float: left;
 }
 
