@@ -205,15 +205,23 @@ form input, button{
 
 #forma {
   display: inline-block;
-  width: 250px;
+  text-align: center;
+  width: 300px;
   height: 100%;
   border: 3px solid rgb(100, 0, 0);
   box-shadow: 0 0 10px;
 }
 
+table {
+  margin: auto;
+}
+
+#upamti-me{
+  float: left;
+}
+
 label {
-  margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
