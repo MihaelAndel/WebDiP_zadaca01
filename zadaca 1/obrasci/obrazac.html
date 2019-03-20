@@ -39,7 +39,36 @@
   <section id="sadrzaj">
     <form action="http://barka.foi.hr/WebDiP/2018/materijali/zadace/ispis_forme.php" method="GET">
       <div id="forma">
-          <h2 id="naslov-forme">Vaše najdraže stvari</h2>
+        <h2 class="naslov-forme">Vaši podaci</h2>
+        <table>
+          <tr>
+            <td>
+              <label for="ime">Ime: </label>
+            </td>
+            <td>
+              <input type="text" name="ime" id="ime">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="prezime">Prezime: </label>
+            </td>
+            <td>
+              <input type="text" name="prezime" id="prezime">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="tel">Telefonski broj: </label>
+            </td>
+
+            <td>
+              <input type="tel" id="telefon" name="telefon">
+            </td>
+          </tr>
+        </table>
+
+        <h2 class="naslov-forme">Vaše najdraže stvari</h2>
         <table>
           <tr>
             <td>
@@ -67,17 +96,17 @@
             </td>
 
             <td>
-              <input id="broj" type="number" name="broj" max="55" min="21" value="32" />
+              <input id="broj" type="number" name="broj" max="100" min="1" value="42" />
             </td>
           </tr>
 
           <tr>
             <td>
-              <label for="lista">Jezik: </label>
+              <label for="lista[]">Jezik: </label>
             </td>
 
             <td>
-              <select id="lista" name="list" multiple="multiple">
+              <select id="lista" name="lista[]" multiple="multiple">
                 <option value="c++">C++</option>
                 <option value="c#">C#</option>
                 <option value="java">Java</option>
@@ -154,16 +183,6 @@
 
             <td>
               <input type="color" name="boja" id="boja">
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <label for="tel">Telefonski broj: </label>
-            </td>
-
-            <td>
-              <input type="tel" id="telefon" name="telefon">
             </td>
           </tr>
 

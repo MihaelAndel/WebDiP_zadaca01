@@ -207,7 +207,7 @@ form input, button {
   box-shadow: 0 0 10px;
 }
 
-#naslov-forme {
+.naslov-forme {
   font-size: 35px;
   text-align: center;
 }
@@ -375,4 +375,18 @@ div.grid-element figcaption {
   border: 2px solid rgb(100, 0, 0);
   margin-left: 80px;
   padding-right: 30px;
+}
+
+table.popis {
+  display: fixed;
+  width: 100%;
+}
+
+td.popis {
+  width: 50px;
+  border: 1px solid black;
+  float: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

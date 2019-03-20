@@ -61,7 +61,7 @@
     grid-template-columns: 90%;
     grid-row-gap: 30px;
   }
-  #naslov-forme {
+  .naslov-forme {
     font-size: 20px;
   }
 }
