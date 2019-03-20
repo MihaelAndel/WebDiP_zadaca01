@@ -204,6 +204,7 @@ form input, button{
 }
 
 #forma {
+  margin-top: 20px;
   display: inline-block;
   text-align: center;
   width: 300px;
@@ -282,7 +283,7 @@ a {
   top: 100px;
 }
 
-#podnozje.registracija {
+#podnozje.registracija, #podnozje.obrazac {
   position: relative;
   top: 150px;
 }
