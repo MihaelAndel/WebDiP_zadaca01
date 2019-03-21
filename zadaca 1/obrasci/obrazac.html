@@ -39,160 +39,171 @@
   <section id="sadrzaj">
     <form action="http://barka.foi.hr/WebDiP/2018/materijali/zadace/ispis_forme.php" method="GET">
       <div id="forma">
-        <h2 class="naslov-forme">Vaši podaci</h2>
-        <table>
-          <tr>
-            <td>
-              <label for="ime">Ime: </label>
-            </td>
-            <td>
-              <input type="text" name="ime" id="ime">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="prezime">Prezime: </label>
-            </td>
-            <td>
-              <input type="text" name="prezime" id="prezime">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="tel">Telefonski broj: </label>
-            </td>
+        <fieldset>
+          <legend class="naslov-forme">Vaši podaci</legend>
+          <table>
+            <tr>
+              <td>
+                <label for="ime">Ime: </label>
+              </td>
+              <td>
+                <input type="text" name="ime" id="ime">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="prezime">Prezime: </label>
+              </td>
+              <td>
+                <input type="text" name="prezime" id="prezime">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="tel">Telefonski broj: </label>
+              </td>
 
-            <td>
-              <input type="tel" id="telefon" name="telefon">
-            </td>
-          </tr>
-        </table>
+              <td>
+                <input type="tel" id="telefon" name="telefon">
+              </td>
+            </tr>
+          </table>
+        </fieldset>
 
-        <h2 class="naslov-forme">Vaše najdraže stvari</h2>
-        <table>
-          <tr>
-            <td>
-              <label for="datoteka">Datoteka: </label>
-            </td>
+        <fieldset>
 
-            <td>
-              <input id="datoteka" type="file" name="datoteka" />
-            </td>
-          </tr>
+          <legend class="naslov-forme">Vaše najdraže stvari</legend>
+          <table>
+            <tr>
+              <td>
+                <label for="datoteka">Datoteka: </label>
+              </td>
 
-          <tr>
-            <td>
-              <label for="tekst">Tekst: </label>
-            </td>
+              <td>
+                <input id="datoteka" type="file" name="datoteka" />
+              </td>
+            </tr>
 
-            <td>
-              <textarea name="teskt" id="teskt" cols="20" rows="5"></textarea>
-            </td>
-          </tr>
+            <tr>
+              <td>
+                <label for="tekst">Tekst: </label>
+              </td>
 
-          <tr>
-            <td>
-              <label for="broj">Broj: </label>
-            </td>
+              <td>
+                <textarea name="teskt" id="teskt" cols="20" rows="5"></textarea>
+              </td>
+            </tr>
 
-            <td>
-              <input id="broj" type="number" name="broj" max="100" min="1" value="42" />
-            </td>
-          </tr>
+            <tr>
+              <td>
+                <label for="broj">Broj: </label>
+              </td>
 
-          <tr>
-            <td>
-              <label for="lista[]">Jezik: </label>
-            </td>
+              <td>
+                <input id="broj" type="number" name="broj" max="100" min="1" value="42" />
+              </td>
+            </tr>
 
-            <td>
-              <select id="lista" name="lista[]" multiple="multiple">
-                <option value="c++">C++</option>
-                <option value="c#">C#</option>
-                <option value="java">Java</option>
-                <option value="kotlin">Kotlin</option>
-                <option value="javascript">JavaScript</option>
-                <option value="python" selected>Python</option>
-                <option value="php">PHP</option>
-                <option value="sql">SQL</option>
-                <option value="swift">Swift</option>
-                <option value="go">Go</option>
-              </select>
-            </td>
-          </tr>
+            <tr>
+              <td>
+                <label for="lista[]">Jezik: </label>
+              </td>
 
-          <tr>
-            <td rowspan="4">
-              <label for="kontinent">Kontinent: </label>
-            </td>
+              <td>
+                <select id="lista" name="lista[]" multiple="multiple">
+                  <option value="c++">C++</option>
+                  <option value="c#">C#</option>
+                  <option value="java">Java</option>
+                  <option value="kotlin">Kotlin</option>
+                  <option value="javascript">JavaScript</option>
+                  <option value="python" selected>Python</option>
+                  <option value="php">PHP</option>
+                  <option value="sql">SQL</option>
+                  <option value="swift">Swift</option>
+                  <option value="go">Go</option>
+                </select>
+              </td>
+            </tr>
 
-            <td>
-              <input type="radio" name="kontinent" value="europa" checked="checked" />
-              <span>Europa</span>
-            </td>
-          </tr>
+            <tr>
+              <td>
+                <label for="boja">Boja: </label>
+              </td>
 
-          <tr>
-            <td>
-              <input type="radio" name="kontinent" value="azija" />
-              <span>Azija</span>
-            </td>
-          </tr>
+              <td>
+                <input type="color" name="boja" id="boja">
+              </td>
+            </tr>
 
-          <tr>
-            <td>
-              <input type="radio" name="kontinent" value="australija" />
-              <span>Australija</span>
-            </td>
-          </tr>
+          </table>
+        </fieldset>
 
-          <tr>
-            <td>
-              <input type="radio" name="kontinent" value="amerike" />
-              <span>Amerike</span>
-            </td>
-          </tr>
+        <fieldset>
+          <legend class="naslov-forme">Vaša lokacija i vrijeme</legend>
+          <table>
+            
+            <tr>
+              <td colspan="2">
+                <input id="gumb" type="submit" value="Slanje" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="klizac">Nadmorska visina: </label>
+              </td>
+
+              <td>
+                <input type="range" name="klizac" id="klizac" min="100" max="1000" />
+              </td>
+            </tr>
+
+            <tr>
+              <td rowspan="4">
+                <label for="kontinent">Kontinent: </label>
+              </td>
+
+              <td>
+                <input type="radio" name="kontinent" value="europa" checked="checked" />
+                <span>Europa</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" name="kontinent" value="azija" />
+                <span>Azija</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" name="kontinent" value="australija" />
+                <span>Australija</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="radio" name="kontinent" value="amerike" />
+                <span>Amerike</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="vrijeme">Vrijeme: </label>
+              </td>
+
+              <td>
+                <input type="time" name="vrijeme" id="vrijeme">
+              </td>
+            </tr>
 
 
-          <tr>
-            <td>
-              <label for="klizac">Visina: </label>
-            </td>
 
-            <td>
-              <input type="range" name="klizac" min="100" max="230" />
-            </td>
-          </tr>
-
-
-          <tr>
-            <td>
-              <label for="vrijeme">Vrijeme: </label>
-            </td>
-
-            <td>
-              <input type="time" name="vrijeme" id="vrijeme">
-            </td>
-          </tr>
-
-
-          <tr>
-            <td>
-              <label for="boja">Boja: </label>
-            </td>
-
-            <td>
-              <input type="color" name="boja" id="boja">
-            </td>
-          </tr>
-
-          <tr>
-            <td colspan="2">
-              <input id="gumb" type="submit" value="Slanje" />
-            </td>
-          </tr>
-
-        </table>
+          </table>
+        </fieldset>
       </div>
     </form>
   </section>

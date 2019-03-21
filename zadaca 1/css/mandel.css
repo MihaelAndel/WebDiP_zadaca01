@@ -186,6 +186,10 @@ article>p {
   margin: 0 15px 10px 15px;
 }
 
+fieldset {
+  border: 0;
+}
+
 form {
   text-align: center;
   margin-top: 20px;
