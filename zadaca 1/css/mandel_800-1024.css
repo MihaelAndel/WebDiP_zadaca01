@@ -15,4 +15,8 @@
     .naslov-forme {
         font-size: 30px;
     }
+
+    td.popis-1, td.popis-2, td.popis-3, td.popis-4, th.popis-1, th.popis-2, th.popis-3, th.popis-4 {
+        display: none;
+    }  
 }

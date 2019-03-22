@@ -1,4 +1,4 @@
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
   #zaglavlje {
     white-space: nowrap;
   }
@@ -63,5 +63,16 @@
   }
   .naslov-forme {
     font-size: 20px;
+  }
+  td.popis-1, td.popis-2, td.popis-3, td.popis-4, td.popis-5, td.popis-6, td.popis-7, th.popis-1, th.popis-2, th.popis-3, th.popis-4, th.popis-5, th.popis-6, th.popis-7 {
+    display: none;
+  }
+
+  th.popis {
+    font-size: 16px;
+  }
+
+  td.popis {
+    font-size: 15px;
   }
 }
